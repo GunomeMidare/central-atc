@@ -10,15 +10,19 @@ The goal of this file is to document the setup of the object providers for Centr
 
 ## Configure Object Provider 🛠️
 
-By setting up the system role you can specify the current system as a central check system for remote ATC checks.
+### Create System Group
+A system group subsumes multiple SAP systems (the productive system, the test system(s), and the development system(s)), which all represent a part of a system landscape of one and the same SAP release.
 
-Log on to the ATC central check system as ATC administrator and call transaction ATC. Under ATC Administration -> Setup double-click the Set System Role entry:
-  
-  ![Screenshot of Central Check System](images/system-role.png)
+<img width="1101" height="338" alt="image" src="https://github.com/user-attachments/assets/a9d51828-6fa1-4112-89e8-547f91c1c850" />
 
 
-> [!IMPORTANT]
-> Remember, if you use this option, you <mark>cannot execute local ATC checks</mark> in the current system. If you use this option, ATC findings and results can only be displayed in SAP GUI. Access using ATC tools in the Eclipse-based ABAP Development Tools is then only possible by performing checks from connected development systems.
+| ID      | Description                              |
+|---------|------------------------------------------|
+| SG_SO_Solution_Manager  | SAP Solution Manager      |
+| SG_CT_Central_Tooling | Central Tooling      |
+| <system_group> | <description>        |
+| <system_group> | <description>        |
 
-> [!Note]
-> With this ATC use case, the current system takes on the role of the Central Check System and is automatically the ATC master system. For remote access, the Central Check System must provide RFC destinations for each system to be checked.
+#### Naming Convention
+For a SAP ATC System Group, the naming convention should be a clear, descriptive ID and a short text description within the ATC administration settings.
+> <SG>_<FIRST_TWO_LETTERS_OF_SYSTEMID>_<DESCRIPTION>
