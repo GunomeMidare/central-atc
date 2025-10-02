@@ -4,6 +4,9 @@
 
 The goal of this file is to document the setup of the Central Check System for ATC.
 
+## References 📝
+- [Assigning System Role](https://help.sap.com/docs/ABAP_PLATFORM_NEW/ba879a6e2ea04d9bb94c7ccd7cdac446/0a107af6e9de46129a866fa08cccc640.html?locale=en-US)
+
 ## Setup System Role 🛠️
 
 By setting up the system role you can specify the current system as a central check system for remote ATC checks.
