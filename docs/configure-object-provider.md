@@ -31,7 +31,9 @@ An object provider defines the RFC connection to be used for analysis in a remot
 
 <img width="1713" height="314" alt="image" src="https://github.com/user-attachments/assets/c86e68ab-e2d1-4bde-9a8f-74f46a388d51" />
 
-| ID          | Description  | System Group | RFC Destination | SAP System | Last |
-|-------------|--------------|--------------|-----------------|------------|------|
+| ID          | Description          | System Group | RFC Destination | SAP System | Last |
+|-------------|----------------------|--------------|-----------------|------------|------|
+| SOO      | Solution Manager Dev        | SG_SO_Solution_Manager       | SOOCLNT100_TRUSTED           | SOO     | 2025-10-01 |
+|CTD     | Central Tooling Dev          | SG_CT_Central_Tooling       | CTDCLNT100_TRUSTED            | CTD      | 2025-10-02 |
 
 SOOCLNT100_TRUSTED
