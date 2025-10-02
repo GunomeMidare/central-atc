@@ -5,6 +5,8 @@
 
 ## 🛠️ Setup Activities per SAP Landscape in Central Check System
 - [x] Maintain Object Providers
+  - [ ] Create System Group
+  - [ ] Create Object Provider
 - [ ] ⚙️ Define RFC destinations for checked systems
   - [ ] Create XXXXX RFC
   - [ ] Create XXXXX RFC
