@@ -19,3 +19,5 @@ Log on to the ATC central check system as ATC administrator and call transaction
 > [!IMPORTANT]
 > Remember, if you use this option, you <mark>cannot execute local ATC checks</mark> in the current system. If you use this option, ATC findings and results can only be displayed in SAP GUI. Access using ATC tools in the Eclipse-based ABAP Development Tools is then only possible by performing checks from connected development systems.
 
+> [!Note]
+> With this ATC use case, the current system takes on the role of the Central Check System and is automatically the ATC master system. For remote access, the Central Check System must provide RFC destinations for each system to be checked.
