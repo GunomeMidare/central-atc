@@ -15,6 +15,11 @@ A system group subsumes multiple SAP systems (the productive system, the test sy
 
 <img width="1101" height="338" alt="image" src="https://github.com/user-attachments/assets/a9d51828-6fa1-4112-89e8-547f91c1c850" />
 
+#### Naming Convention
+For a SAP ATC System Group, the naming convention should be a clear, descriptive ID and a short text description within the ATC administration settings.
+> <SG>_<FIRST_TWO_LETTERS_OF_SYSTEMID>_<DESCRIPTION>
+
+
 
 | ID      | Description                              |
 |---------|------------------------------------------|
@@ -22,7 +27,3 @@ A system group subsumes multiple SAP systems (the productive system, the test sy
 | SG_CT_Central_Tooling | Central Tooling      |
 | <system_group> | <description>        |
 | <system_group> | <description>        |
-
-#### Naming Convention
-For a SAP ATC System Group, the naming convention should be a clear, descriptive ID and a short text description within the ATC administration settings.
-> <SG>_<FIRST_TWO_LETTERS_OF_SYSTEMID>_<DESCRIPTION>
