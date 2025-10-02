@@ -2,17 +2,14 @@
 
 ## 🔧 Initial Setup of ATC Central Check System
 - [ ] 📂 Setup system role
+
+## 🛠️ Setup Activities per SAP Landscape in Central Check System
+- [x] Maintain Object Providers
 - [ ] ⚙️ Define RFC destinations for checked systems
   - [ ] Create XXXXX RFC
   - [ ] Create XXXXX RFC
-- [ ] 📝 Maintain Object Providers
-
-## 🛠️ Setup Activities per SAP Landscape 
-- [x] 🐳 Set up Docker containers
-- [ ] 💻 Install dependencies
-  - [ ] Run `npm install` or equivalent
-  - [ ] Verify dependency versions
-- [ ] 🔑 Set up environment variables
+- [ ] Configure Run Series
+- [ ] Schedule Run Series
 
 ## ✅ Testing
 - [ ] 🧪 Write unit tests
