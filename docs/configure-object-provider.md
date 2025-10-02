@@ -19,11 +19,16 @@ A system group subsumes multiple SAP systems (the productive system, the test sy
 For a SAP ATC System Group, the naming convention should be a clear, descriptive ID and a short text description within the ATC administration settings.
 > <SG>_<FIRST_TWO_LETTERS_OF_SYSTEMID>_<DESCRIPTION>
 
-
-
 | ID      | Description                              |
 |---------|------------------------------------------|
 | SG_SO_Solution_Manager  | SAP Solution Manager      |
 | SG_CT_Central_Tooling | Central Tooling      |
 | <system_group> | <description>        |
 | <system_group> | <description>        |
+
+### Create Object Provider
+An object provider defines the RFC connection to be used for analysis in a remote SAP system. While a check run is being executed, the ATC framework uses this RFC connection to the checked system to extract a model from the custom code.
+
+<img width="1713" height="314" alt="image" src="https://github.com/user-attachments/assets/c86e68ab-e2d1-4bde-9a8f-74f46a388d51" />
+
+SOOCLNT100_TRUSTED
