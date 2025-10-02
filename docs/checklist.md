@@ -1,13 +1,13 @@
 # 📋 Project Setup Checklist
 
-## 🔧 Initial Setup
-- [ ] 📂 Create project repository
-- [ ] ⚙️ Configure `.gitignore` file
-  - [ ] Add `node_modules/`
-  - [ ] Add `.env`
-- [ ] 📝 Write `README.md` with project overview
+## 🔧 Initial Setup of ATC Central Check System
+- [ ] 📂 Setup system role
+- [ ] ⚙️ Define RFC destinations for checked systems
+  - [ ] Create XXXXX RFC
+  - [ ] Create XXXXX RFC
+- [ ] 📝 Maintain Object Providers
 
-## 🛠️ Development Environment
+## 🛠️ Setup Activities per SAP Landscape 
 - [x] 🐳 Set up Docker containers
 - [ ] 💻 Install dependencies
   - [ ] Run `npm install` or equivalent
