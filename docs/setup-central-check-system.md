@@ -11,3 +11,8 @@ By setting up the system role you can specify the current system as a central ch
 Log on to the ATC central check system as ATC administrator and call transaction ATC. Under ATC Administration -> Setup double-click the Set System Role entry:
   
   ![Screenshot of Central Check System](images/system-role.png)
+
+
+> [!IMPORTANT]
+> Remember, if you use this option, you <mark>cannot execute local ATC checks</mark> in the current system. If you use this option, ATC findings and results can only be displayed in SAP GUI. Access using ATC tools in the Eclipse-based ABAP Development Tools is then only possible by performing checks from connected development systems.
+
